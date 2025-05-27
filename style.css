@@ -1,0 +1,37 @@
+.wrap {
+  height: 400vh;
+}
+
+.trigger {
+  position: absolute;
+}
+
+.trigger-1 {
+  top: 0;
+}
+
+.trigger-2 {
+  top: 100vh;
+}
+
+.trigger-3 {
+  top: 200vh;
+}
+
+.trigger-4 {
+  top: 300vh;
+}
+
+.rec-wrap {
+  position: sticky;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.black-rec {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
