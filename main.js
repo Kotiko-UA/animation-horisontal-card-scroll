@@ -11,7 +11,7 @@ function animateRec(index) {
 		},
 		backgroundColor: 'green',
 		width: '300',
-		duration: 1,
+		duration: 0.5,
 	})
 }
 
