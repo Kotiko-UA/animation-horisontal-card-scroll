@@ -1,3 +1,10 @@
+.section-1,
+.section-3 {
+  height: 100vh;
+}
+
+.section-2 {}
+
 .wrap {
   height: 400vh;
 }
@@ -7,27 +14,28 @@
 }
 
 .trigger-1 {
-  top: 0;
-}
-
-.trigger-2 {
   top: 100vh;
 }
 
-.trigger-3 {
+.trigger-2 {
   top: 200vh;
 }
 
-.trigger-4 {
+.trigger-3 {
   top: 300vh;
+}
+
+.trigger-4 {
+  top: 400vh;
 }
 
 .rec-wrap {
   position: sticky;
-  top: 20px;
+  top: 50%;
   display: flex;
   justify-content: center;
   gap: 40px;
+  transform: translateY(-50%);
 }
 
 .black-rec {
